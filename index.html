@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="cordova.js"></script>
+<script src="PowerManagement.js"></script>
+<script>
+
+function onLoad() {
+	document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {	
+	window.plugins.powerManagement.acquire();
+	window.location = "http://www.grooveshark.com/";
+}
+
+</script>
+<style>
+body {background-color:#222}
+</style>
+</head>
+<body onload="onLoad()">
+</body>
+</html>

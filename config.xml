@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.initlabs.grooveshark"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <name>GrooveShark</name>
+
+    <description>
+        Free Music
+    </description>
+
+    <author href="http://initlabs.com" email="krisrak@gmail.com">
+        Rakshith Krishnappa 
+    </author>
+	
+	<preference name="webviewbounce" value="true" />
+	<preference name="target-device" value="universal" />
+	<preference name="orientation" value="portrait" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="phonegap-version" value="3.0.0" />
+	<preference name="prerendered-icon" value="false" />
+	
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
+    <gap:platform name="ios" />
+    <gap:plugin name="com.simplec.plugins.powermanagement" />
+</widget>
