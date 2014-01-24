@@ -3,6 +3,8 @@ Grooveshark iPhone App
 
 Grooveshark webapp [(www.grooveshark.com)](http://www.grooveshark.com) packaged to build iPhone app using [Phonegap build] (http://build.phonegap.com)
 
+![grooveshark](https://f.cloud.github.com/assets/1414842/1992470/7097f9ca-84bf-11e3-9569-ad9e6a129de3.jpg)
+
 What is Grooveshark?
 -
 
